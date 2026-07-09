@@ -1,1 +1,53 @@
+/* Fondo */
+body{
+    margin:0;
+    padding:0;
+    background:#0d0d0d;
+    color:#C0C0C0;
+    font-family:Georgia, serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
 
+/* Caja central */
+.inicio{
+    text-align:center;
+    width:90%;
+    max-width:700px;
+}
+
+/* Título */
+h1{
+    color:#8A2BE2;
+    font-size:60px;
+    letter-spacing:8px;
+    text-shadow:0 0 20px #8A2BE2;
+}
+
+/* Texto */
+p{
+    font-size:22px;
+    line-height:1.8;
+}
+
+/* Botón */
+button{
+    margin-top:30px;
+    padding:15px 40px;
+    background:transparent;
+    border:2px solid #8A2BE2;
+    color:#C0C0C0;
+    font-size:20px;
+    cursor:pointer;
+    border-radius:8px;
+    transition:0.4s;
+}
+
+/* Efecto al tocar el botón */
+button:hover{
+    background:#8A2BE2;
+    color:black;
+    box-shadow:0 0 30px #8A2BE2;
+}
